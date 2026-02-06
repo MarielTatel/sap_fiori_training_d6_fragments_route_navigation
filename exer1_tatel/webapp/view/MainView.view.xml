@@ -42,12 +42,11 @@
                                 <l:GridData id="gridLblCVC" span="XL1 L1 M1"/>
                             </layoutData>
                         </Label>
-                        <Input class="placeholderFont" id="idInputCVC" placeholder="CVC" type="Password" value="" visible="false">
+                        <Input class="placeholderFont hideReveal" id="idInputCVC" placeholder="CVC" type="Password" maxLength="3" visible="false">
                             <layoutData>
                                 <l:GridData id="gridInputCVC" span="XL2 L2 M2 S12"/>
                             </layoutData>
                         </Input>
-
                     </f:content>
                 </f:SimpleForm>
                 <Table id="idTableSCart" inset="false">

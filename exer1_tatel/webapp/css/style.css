@@ -4,7 +4,7 @@
     color: #D3D3D3;
 }
 
-input[type="password"]::-ms-reveal,
-input[type="password"]::-ms-clear {
+.hideReveal input[type="password"]::-ms-reveal,
+.hideReveal input[type="password"]::-ms-clear {
   display: none !important;
 }
