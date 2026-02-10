@@ -49,44 +49,7 @@
                         </Input>
                     </f:content>
                 </f:SimpleForm>
-                <Table id="idTableSCart" inset="false">
-                    <headerToolbar>
-                        <OverflowToolbar id="idOFT">
-                            <content>
-                                <Title id="idTableTitleSCart" text="{i18n>cartTit}"/>
-                                <ToolbarSpacer id="idTSpacer"/>
-                                <Button id="idBtnAddItems" icon="sap-icon://cart-4" tooltip="{i18n>addItemTool}" press="onAddItem"/>
-                            </content>
-                        </OverflowToolbar>
-                    </headerToolbar>
-                    <columns>
-                        <Column id="idCol1">
-                            <Text id="idColText1" text="{i18n>itemCol}"/>
-                        </Column>
-                        <Column id="idCol2">
-                            <Text id="idColText2" text="{i18n>quanCol}"/>
-                        </Column>
-                        <Column id="idCol3">
-                            <Text id="idColText3" text="{i18n>priceCol}"/>
-                        </Column>
-                    </columns>
-                    <items>
-                        <ColumnListItem id="idColListItem1" vAlign="Middle">
-                            <cells>
-                                <Text id="idText1" text="{i18n>itemName1}"/>
-                                <Text id="idText2" text="{i18n>itemQuan1}"/>
-                                <Text id="idText3" text="{i18n>itemPrice1}"/>
-                            </cells>
-                        </ColumnListItem>
-                        <ColumnListItem id="idColListItem2" vAlign="Middle">
-                            <cells>
-                                <Text id="idText4" text="{i18n>itemName2}"/>
-                                <Text id="idText5" text="{i18n>itemQuan2}"/>
-                                <Text id="idText6" text="{i18n>itemPrice2}"/>
-                            </cells>
-                        </ColumnListItem>
-                    </items>
-                </Table>
+                <core:Fragment fragmentName="com.training.exer1tatel.fragment.ShoppingCart" type="XML" />
             </VBox>
         </content>
         <footer>
