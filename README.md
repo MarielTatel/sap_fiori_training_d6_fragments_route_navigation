@@ -1,5 +1,5 @@
 # [SAP Fiori Capability] SAPUI5 Basic Training
-## DAY 6 - Fragments, Route, and Navigation Activity
+## DAY 6 - Fragments & Routes and Navigation Activity
 
 *Continuation from DAY 4 - Views and Controllers Activity.*
 
